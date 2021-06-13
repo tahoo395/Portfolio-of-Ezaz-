@@ -1,0 +1,273 @@
+.contact {
+  height: 100vh;
+  width: 100vw;
+  .contact-box {
+    position: absolute;
+    right: 150px;
+    top: 2200px;
+  }
+  .form {
+    position: absolute;
+    left: 100px;
+    top: 2100px;
+  }
+
+  @media screen and (max-width: 1250px) {
+    .contact-box {
+      right: 70px;
+    }
+    .form {
+      left: 60px;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .contact-box {
+      right: 30px;
+    }
+    .form {
+      left: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .contact-box {
+      width: 470px;
+      height: 230px;
+
+      h1,
+      p {
+        padding-left: 25px;
+      }
+
+      h1 {
+        top: 45px;
+        font-size: 32px;
+      }
+      p {
+        top: 65px;
+        font-size: 15px;
+        width: 90%;
+      }
+    }
+    .form {
+      width: 320px;
+      height: 420px;
+      .name,
+      .text {
+        width: 290px;
+      }
+
+      .fb,.email{
+        margin-top: 315px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .contact-box {
+      height: 230px;
+      width: 420px;
+      right: 50%;
+      top: 2000px;
+      transform: translate(50%);
+      text-align: center;
+      h1 {
+        top: 35px;
+        font-size: 32px;
+        padding-left:0;
+      }
+      p {
+        top: 50px;
+        font-size: 15px;
+        padding-left:0;
+        left: 50%;
+        width: 90%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .form{
+      top: 2300px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .contact-box {
+      height: 170px;
+      width: 340px;
+      top: 2050px;
+      h1 {
+        top: 30px;
+        font-size: 23px;
+      }
+      p {
+        top: 35px;
+        font-size: 12px;
+      }
+    }
+
+    .form{
+      width: 300px;
+      height: 400px;
+      .name,
+      .text {
+        width: 275px;
+      }
+
+      .fb,.email{
+        margin-top: 300px;
+      }
+
+      .fb{
+        margin-left: 180px;
+      }
+
+      .email{
+        margin-left: 230px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    .contact-box {
+      height: 170px;
+      width: 230px;
+      top: 2070px;
+      h1 {
+        top: 15px;
+        font-size: 19px;
+      }
+      p {
+        top: 25px;
+        font-size: 11.3px;
+      }
+    }
+
+    .form{
+      width: 260px;
+      height: 370px;
+      .name,
+      .text {
+        font-size: 15px;
+        width: 235px;
+      }
+
+      .name{
+        margin-top: 30px;
+      }
+
+      .button{
+        font-size: 13px;
+        width: 90px;
+      }
+
+      .fb,.email{
+        margin-top: 275px;
+      }
+
+      .fb{
+        margin-left: 140px;
+      }
+
+      .email{
+        margin-left: 190px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .contact-box {
+      height: 170px;
+      width: 200px;
+    }
+
+    .form{
+      width: 200px;
+      height: 310px;
+      .name,
+      .text {
+        font-size: 13px;
+        width: 180px;
+      }
+
+      .name{
+        margin-top: 20px;
+      }
+      .text{
+        height: 100px;
+      }
+
+      .button{
+        font-size: 11px;
+        width: 70px;
+      }
+
+      .fb,.email{
+        margin-top: 225px;
+        font-size: 25px;
+      }
+
+      .fb{
+        margin-left: 110px;
+      }
+
+      .email{
+        margin-left: 150px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 230px) {
+    .contact-box {
+      width: 170px;
+      h1 {
+        top: 20px;
+        font-size: 14px;
+      }
+      p {
+        top: 30px;
+        font-size: 9.5px;
+      }
+    }
+
+    .form{
+      width: 160px;
+      height: 280px;
+      .name,
+      .text {
+        font-size: 13px;
+        width: 145px;
+      }
+
+      .name{
+        margin-top: 20px;
+        height: 30px;
+      }
+      .text{
+        height: 100px;
+        margin-top: -20px;
+      }
+
+      .button{
+        font-size: 11px;
+        width: 70px;
+      }
+
+      .fb,.email{
+        margin-top: 210px;
+        font-size: 20px;
+      }
+
+      .fb{
+        margin-left: 100px;
+      }
+
+      .email{
+        margin-left: 130px;
+      }
+    }
+  }
+}
